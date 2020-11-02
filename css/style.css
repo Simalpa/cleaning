@@ -1,0 +1,382 @@
+html
+{
+    height:100%;
+}
+
+body
+{
+    font-family: "PT Sans Caption";
+    height:100%;
+}
+
+.row
+{
+    margin:0 auto;
+    max-width: 1140px;
+}
+
+.main_header
+{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:38px;
+}
+
+.main_header_min
+{
+    text-align: center;
+    font-size:20px;
+    color: rgb(94, 94, 94);
+    margin-top: 25px;
+}
+
+.container-fluid
+{
+    padding-left:0;
+    padding-right:0;
+}
+
+
+header
+{
+    /*background-color: blueviolet;*/
+    box-shadow: 0 0 10px rgba(200, 200, 200, 10);
+    padding-top:3px;
+    padding-bottom: 3px;
+    position: relative;
+}
+
+header .row
+{
+    padding-top:7px;
+   /* background-color: green;*/
+}
+
+
+header .number
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+header .button_input
+{
+    color:rgb(34, 34, 34);
+    font-weight: bold;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+header .button_input p
+{
+    position: relative;
+    left:-5px;
+}
+
+
+header .collapse .nav-item .nav-link
+{
+   padding:0 15px;
+   font-weight: 600;
+   font-size: 15px;
+   color:rgb(34, 34, 34);
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   line-height: 25px;
+}
+
+header .collapse .nav-item .nav-link:hover
+{
+    color:rgb(0, 170, 100);
+}
+
+
+
+header .nav-item:first-child .nav-link
+{
+   padding-left: 0;
+}
+
+nav
+{
+    width:100%;
+}
+
+.navbar
+{
+    padding-bottom: 10px;
+}
+
+
+
+.top_form
+{
+    background: url('/img/worker\ and\ client.jpg');
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-color: #e9eaee;
+    height:80%;
+    max-height: 700px;
+    font-size:30px;
+
+
+
+}
+
+.top_form .card
+{
+    margin:30px 0;
+    border-radius: 7px;
+    max-width:400px;
+    padding:27px;
+}
+
+.top_form .card h1
+{
+   font-size:30px;
+   font-weight: 600;
+}
+
+.top_form .card .container-fluid
+{
+     padding:0;
+}
+
+.top_form .card .container-fluid .price
+{
+margin-top:33px;
+}
+
+.top_form .card .container-fluid .price .card-text
+{
+margin-bottom:15px;
+}
+
+.top_form .card .container-fluid .delivery_price
+{
+    margin-top:8px;
+}
+
+.top_form .card .container-fluid .information
+{
+    color: rgb(0, 170, 100);
+    padding:0;
+    margin-top:10px;
+}
+
+.top_form .card .container-fluid .information a
+{
+    color: rgb(0, 170, 100);
+    text-decoration: underline;
+}
+
+.top_form .card .container-fluid .card-text
+{
+     font-size: 15px;
+}
+
+.top_form .card .container-fluid form
+{
+     margin-top:26px;
+     width:100%;
+}
+
+.top_form .card .container-fluid form button
+{
+     width:100%;
+     padding:13px;
+     border-radius: 6px;
+     margin-top: 14px;
+     background-color: rgb(0, 170, 100);
+     border-width: 0;
+}
+
+.top_form .card .container-fluid .input-group
+{
+     width:100%;
+}
+
+.top_form .card .container-fluid .input-group .input-group-prepend .input-group-text
+{
+    font-size: 18px;
+}
+
+.top_form .card .container-fluid .input-group input 
+{
+     height:50px;
+     font-size: 18px;
+     color:#000;
+     padding-left:20px;
+     
+}
+
+.top_form .card .container-fluid .input-group input::-webkit-input-placeholder
+{
+     font-size: 20px;
+     color:#999;
+     
+}
+
+.top_form .card .container-fluid .input-group-text
+{
+     width:55px;
+     padding-left: 18px;
+}
+
+.garanties
+{
+    background-color: #222;
+    margin:0;
+    padding:0;
+}
+
+.garanties .col-3:not(:first-child)
+{
+    padding-left:0;
+}
+
+.garanties .col-3:not(:last-child)
+{
+    padding-right:0;
+}
+
+.garanties .card
+{
+    margin:0;
+    padding:0;
+    background-color: rgba(0,0,0,0);
+    margin:20px 0;
+}
+
+.garanties .card .card-body
+{
+    padding:0;
+}
+
+.garanties .card .card-body svg
+{
+    float:left;
+    padding:0;
+}
+
+.garanties .card .content-card
+{
+    padding:0
+}
+
+
+.garanties .card .card-title
+{
+    font-size:15px;
+    color:white;
+    margin-bottom:3px;
+}
+
+.garanties .card .card-text
+{
+    font-size:13px;
+    color:rgb(196, 196, 196)
+}
+
+.phone_app
+{
+    padding-top: 70px; 
+    background-color: #20a052;
+}
+
+.phone_app .information
+{
+    margin-top:40px;
+    color:white;
+}
+
+.phone_app .information h2
+{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.phone_app .information p
+{
+    font-size:20px;
+    margin-bottom:0;
+}
+
+.phone_app .information svg, .phone_app .information p
+{
+    display: inline-block;
+}
+
+.phone_app .information .app_markets
+{
+    background-color: rgb(34, 34, 34);
+    width:130px;
+    height:55px;
+    border-radius: 5px;
+    margin-top:30px;
+}
+
+.phone_app .information .app_markets .appstore_ico
+{
+    width:49.5%;
+    height:100%;
+    text-align: center;
+    float:left;
+    padding-top: 3px;
+    border-radius: 5px 0 0 5px;
+}
+
+.phone_app .information .app_markets .appstore_ico:hover
+{
+    background-color:  rgb(50, 50, 50);
+}
+
+.phone_app .information .app_markets .line
+{
+    width:0.5%;
+    height:35px;
+    background-color: rgb(166, 166, 166);
+    float:left;
+    position:relative;
+    top:11px;
+
+}
+
+.phone_app .information .app_markets .playmarket_ico
+{
+    width:50%;
+    height:100%;
+    text-align: center;
+    padding-top: 3px;
+    float:left;
+    border-radius: 0 5px 5px 0;
+}
+
+.phone_app .information .app_markets .playmarket_ico:hover
+{
+    background-color: rgb(50, 50, 50);
+}
+
+.phone_app .phone_image svg
+{
+    float:right;
+    margin-right: 10px;
+
+}
+
+.subscription
+{
+    padding-top: 100px;
+}
+
+
+
+#button_input:hover
+{
+    text-decoration: underline;
+    color:rgb(70, 70, 70);
+}
+
