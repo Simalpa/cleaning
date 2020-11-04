@@ -23,13 +23,64 @@ body {
     text-align: center;
     font-size: 20px;
     color: rgb(94, 94, 94);
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 60px;
 }
 
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+.card {
+    max-width: 300px;
+    margin: 0 10px;
+    padding: 0;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.card .card-body {
+    padding: 0;
+}
+
+.card svg {
+    float: left;
+    position: relative;
+    top: 2px;
+    padding: 0;
+}
+
+.col-10:last-child {
+    margin-bottom: 25px;
+}
+
+.card .properties p {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.card .properties .col-2,
+.card .properties .col-10 {
+    padding: 0;
+}
+
+.card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 35px;
+}
+
+.card .btn {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #20a052;
+    border: 0;
 }
 
 header {
@@ -103,6 +154,7 @@ nav {
     border-radius: 7px;
     max-width: 400px;
     padding: 27px;
+    box-shadow: 0 0 2px rgba(200, 200, 200, 10);
 }
 
 .top_form .card h1 {
@@ -309,54 +361,20 @@ nav {
     padding: 100px;
 }
 
-.subscription .card {
-    max-width: 300px;
-    margin: 0 10px;
-    padding: 0;
-    padding: 30px 20px;
+.subscription .btn-outline-success {
+    border-color: #20a052;
+    color: #20a052;
+    margin-top: 30px;
+    padding: 12px 10px;
 }
 
-.subscription .card .card-body {
-    padding: 0;
+.special_offer {
+    padding: 30px;
 }
 
-.subscription .card h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 35px;
-}
-
-.subscription .card svg {
-    float: left;
-    position: relative;
-    top: 2px;
-    padding: 0;
-}
-
-.subscription .card p {
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 20px;
-    width: 95%;
-}
-
-.subscription .card .col-10:last-child {
-    margin-bottom: 25px;
-}
-
-.subscription .card .properties .col-2,
-.subscription .card .properties .col-10 {
-    padding: 0;
-}
-
-.subscription .card .btn {
-    width: 100%;
-    padding: 10px 0;
-    background-color: #20a052;
-    border: 0;
+.special_offer .card .btn {
+    background-color: #fae12e;
+    color: black;
 }
 
 #button_input:hover {
