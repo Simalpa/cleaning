@@ -449,6 +449,32 @@
             font-size: 20px;
         }
         
+        .FAQ {
+            max-width: 800px;
+        }
+        
+        .FAQ ul {
+            margin-top: 60px;
+        }
+        
+        .FAQ .nav-link {
+            padding: 0;
+            max-width: 220px;
+        }
+        
+        .FAQ .card .card-body {
+            padding: 10px;
+        }
+        
+        .FAQ .card .card-title {
+            color: black;
+            font-size: 18px;
+        }
+        
+        .FAQ .card .card-title {
+            color: black;
+        }
+        
         #button_input:hover {
             text-decoration: underline;
             color: rgb(70, 70, 70);
