@@ -462,17 +462,30 @@
             max-width: 220px;
         }
         
-        .FAQ .card .card-body {
+        .FAQ .nav-item .card .card-img-top {
+            max-width: 80px;
+            margin: 0;
+        }
+        
+        .FAQ .nav-item .card .card-body {
             padding: 10px;
         }
         
-        .FAQ .card .card-title {
+        .FAQ .nav-item .card .card-title {
             color: black;
             font-size: 18px;
         }
         
-        .FAQ .card .card-title {
+        .FAQ .nav-item .card .card-title {
             color: black;
+        }
+        
+        .FAQ .tab-content {
+            width: 100%;
+        }
+        
+        .FAQ .button {
+            color: red;
         }
         
         #button_input:hover {
