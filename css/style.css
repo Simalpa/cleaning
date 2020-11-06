@@ -604,6 +604,7 @@
   
   .bottom_form form {
       width: 100%;
+      margin: 60px 0;
   }
   
   .bottom_form form .input-group .input-group-text {
@@ -628,6 +629,38 @@
       background-color: #20a052;
       border: 0;
       font-size: 20px;
+  }
+  
+  footer {
+      background-color: #e9eaee;
+      padding: 30px 0;
+  }
+  
+  footer p {
+      margin-bottom: 20px;
+  }
+  
+  footer .col-md-6,
+  footer .col-12 {
+      padding: 0;
+  }
+  
+  footer .col-md-7 {
+      padding-left: 40px;
+  }
+  
+  footer .buttons {
+      margin-bottom: 20px;
+  }
+  
+  footer .btn-primary {
+      max-width: 180px;
+      padding: 10px 30px;
+      margin-bottom: 20px;
+  }
+  
+  footer .row:first-child .btn {
+      margin-right: 20px;
   }
   
   #button_input:hover {
