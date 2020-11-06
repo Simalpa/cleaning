@@ -386,7 +386,7 @@
   }
   
   .subscription {
-      padding: 100px;
+      padding: 100px 0;
   }
   
   .subscription .btn-outline-success {
@@ -394,12 +394,6 @@
       color: #20a052;
       margin-top: 30px;
       padding: 12px 10px;
-  }
-  
-  @media (max-width: 991.98px) {
-      .subscription {
-          padding: 50px 0;
-      }
   }
   
   .special_offer {
@@ -493,7 +487,14 @@
   
   .FAQ .nav-link {
       padding: 0;
-      max-width: 220px;
+  }
+  
+  .FAQ .nav-item .card {
+      width: 100%;
+  }
+  
+  .FAQ .nav-item a {
+      padding: 0;
   }
   
   .FAQ .nav-item .card .card-img-top {
@@ -520,6 +521,18 @@
   
   .FAQ .button {
       color: red;
+  }
+  
+  .FAQ .nav .nav-item:first-child {
+      padding-left: 0;
+  }
+  
+  .FAQ .nav .nav-item:last-child {
+      padding-right: 0;
+  }
+  
+  .FAQ #accordion {
+      margin: 50px 0;
   }
   
   #button_input:hover {
