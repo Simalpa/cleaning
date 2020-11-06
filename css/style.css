@@ -385,15 +385,19 @@
       margin-right: 10px;
   }
   
-  .subscription {
+  .subscribtion {
       padding: 100px 0;
   }
   
-  .subscription .btn-outline-success {
+  .subscribtion .btn-outline-success {
       border-color: #20a052;
       color: #20a052;
       margin-top: 30px;
       padding: 12px 10px;
+  }
+  
+  .subscribtion .btn-outline-success:hover {
+      color: white;
   }
   
   .special_offer {
@@ -491,6 +495,7 @@
   
   .FAQ .nav-item .card {
       width: 100%;
+      padding: 20px 0;
   }
   
   .FAQ .nav-item a {
@@ -533,6 +538,50 @@
   
   .FAQ #accordion {
       margin: 50px 0;
+  }
+  
+  .FAQ #accordion .card {
+      padding: 0;
+      border: 0;
+      border-left: solid 1px #d9d9d9;
+      border-right: solid 1px #d9d9d9;
+      border-radius: 0;
+  }
+  
+  .FAQ #accordion .card .card-header {
+      background-color: white;
+  }
+  
+  .FAQ #accordion .card:first-child {
+      border-top: solid 1px #d9d9d9;
+      border-radius: 4px 4px 0 0;
+  }
+  
+  .FAQ #accordion .card:last-child {
+      border-bottom: solid 1px #d9d9d9;
+      border-radius: 0 0 4px 4px;
+  }
+  
+  .FAQ #accordion .card .btn {
+      box-shadow: none;
+      border: none;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  
+  .FAQ #accordion .card .card-header {
+      padding-top: 0;
+      padding-bottom: 0;
+      border: 0
+  }
+  
+  .FAQ #accordion .card .btn:focus {
+      box-shadow: none;
+      border: 0;
+  }
+  
+  .FAQ #accordion .card h5 {
+      margin: 0;
   }
   
   #button_input:hover {
