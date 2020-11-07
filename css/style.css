@@ -133,12 +133,23 @@
       padding-left: 0;
   }
   
-  nav {
+  header nav {
       width: 100%;
   }
   
-  .navbar {
+  header .navbar {
       padding-bottom: 10px;
+  }
+  
+  @media (max-width: 576px) {
+      header .navbar-nav {
+          margin: 10px 0;
+      }
+      header .navbar-collapse .nav-item .nav-link {
+          padding: 0;
+          text-align: left;
+          font-weight: 400;
+      }
   }
   
   .top_form {
@@ -309,18 +320,6 @@
       margin-bottom: 30px;
   }
   
-  @media (max-width:991.1px) {
-      .phone_app .information h2 {
-          font-size: 30px;
-      }
-  }
-  
-  @media (max-width:300px) {
-      .phone_app .information h2 {
-          font-size: 20px;
-      }
-  }
-  
   .phone_app .information p {
       font-size: 20px;
       margin-bottom: 0;
@@ -383,6 +382,24 @@
   .phone_app .phone_image svg {
       float: right;
       margin-right: 10px;
+  }
+  
+  @media (max-width:991.9px) {
+      .phone_app {
+          padding: 30px 0;
+      }
+      .phone_app .information h2 {
+          font-size: 30px;
+      }
+      .phone_app .information .app_markets {
+          width: 100%;
+      }
+  }
+  
+  @media (max-width:300px) {
+      .phone_app .information h2 {
+          font-size: 20px;
+      }
   }
   
   .subscribtion {
@@ -493,6 +510,12 @@
       padding: 0;
   }
   
+  .FAQ .nav-pills .nav-link.active,
+  .FAQ .nav-pills .show>.nav-link {
+      padding: 0;
+      background-color: rgba(0, 0, 0, 0);
+  }
+  
   .FAQ .nav-item .card {
       width: 100%;
       padding: 20px 0;
@@ -598,6 +621,33 @@
       border: 0;
   }
   
+  @media(max-width:768px) {
+      .FAQ {
+          padding: 0;
+      }
+      .FAQ .nav-item {
+          margin: 0;
+          padding: 0;
+      }
+      .FAQ .card {
+          border-top: solid 1px #d9d9d9;
+          border-bottom: none;
+          border-left: none;
+          border-right: none;
+          border-radius: 0;
+      }
+      .FAQ .card:first-child {
+          border-right: solid 1px #d9d9d9;
+      }
+      .FAQ .card:last-child {
+          border-left: solid 1px #d9d9d9;
+      }
+      .FAQ #accordion {
+          margin: 0;
+          margin-bottom: 50px;
+      }
+  }
+  
   .bottom_form {
       max-width: 650px;
   }
@@ -629,6 +679,12 @@
       background-color: #20a052;
       border: 0;
       font-size: 20px;
+  }
+  
+  @media(max-width:768px) {
+      .bottom_form form .input-group {
+          padding: 0 0 20px 0;
+      }
   }
   
   footer {
