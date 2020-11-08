@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="30">
+                            <defs>
+                                <linearGradient id="a" x1="91.476%" x2="-38.55%" y1="4.948%" y2="71.907%">
+                                    <stop offset="0%" stop-color="#00A0FF"></stop>
+                                    <stop offset="1%" stop-color="#00A1FF"></stop>
+                                    <stop offset="26%" stop-color="#00BEFF"></stop>
+                                    <stop offset="51%" stop-color="#00D2FF"></stop>
+                                    <stop offset="76%" stop-color="#00DFFF"></stop>
+                                    <stop offset="100%" stop-color="#00E3FF"></stop>
+                                </linearGradient>
+                                <linearGradient id="b" x1="107.685%" x2="-130.64%" y1="50%" y2="50%">
+                                    <stop offset="0%" stop-color="#FFE000"></stop>
+                                    <stop offset="41%" stop-color="#FFBD00"></stop>
+                                    <stop offset="78%" stop-color="orange"></stop>
+                                    <stop offset="100%" stop-color="#FF9C00"></stop>
+                                </linearGradient>
+                                <linearGradient id="c" x1="86.219%" x2="-50.15%" y1="17.877%" y2="194.703%">
+                                    <stop offset="0%" stop-color="#FF3A44"></stop>
+                                    <stop offset="100%" stop-color="#C31162"></stop>
+                                </linearGradient>
+                                <linearGradient id="d" x1="-18.754%" x2="42.121%" y1="-54.052%" y2="24.917%">
+                                    <stop offset="0%" stop-color="#32A071"></stop>
+                                    <stop offset="7%" stop-color="#2DA771"></stop>
+                                    <stop offset="48%" stop-color="#15CF74"></stop>
+                                    <stop offset="80%" stop-color="#06E775"></stop>
+                                    <stop offset="100%" stop-color="#00F076"></stop>
+                                </linearGradient>
+                            </defs>
+                            <g fill="none" fill-rule="nonzero">
+                                <path fill="url(#a)" d="M.599.82a2.192 2.192 0 0 0-.512 1.572v24.821c-.035.57.156 1.133.535 1.571l.081.079 14.382-13.892v-.325L.68.742.599.821z"></path>
+                                <path fill="url(#b)" d="M19.852 19.605l-4.767-4.634v-.325L19.852 10l.104.056 5.709 3.13c1.628.887 1.628 2.346 0 3.244l-5.685 3.12-.128.055z"></path>
+                                <path fill="url(#c)" d="M19.991 19.55l-4.906-4.747L.599 28.784c.684.581 1.7.61 2.418.068l16.986-9.314"></path>
+                                <path fill="url(#d)" d="M19.991 10.067L3.005.754A1.948 1.948 0 0 0 .587.82l14.498 13.982 4.906-4.736z"></path>
+                            </g>
+                        </svg>
